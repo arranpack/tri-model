@@ -1,0 +1,428 @@
+Substrate,Products,Kinetic Law,Modifiers,Parameters
+RelA p50,RelAp50,Mass Action Binding,,k1_RelAp50binding
+RelAn p50n,RelAnp50n,Mass Action Binding,,k1_RelAnp50nbinding
+RelA p52,RelAp52,Mass Action Binding,,k1_RelAp52binding
+RelAn p52n,RelAnp52n,Mass Action Binding,,k1_RelAnp52nbinding
+RelB p52,RelBp52,Mass Action Binding,,k1_RelBp52binding
+RelBn p52n,RelBnp52n,Mass Action Binding,,k1_RelBnp52nbinding
+RelB p50,RelBp50,Mass Action Binding,,k1_RelBp50binding
+RelBn p50n,RelBnp50n,Mass Action Binding,,k1_RelBnp50nbinding
+cRel p50,cRelp50,Mass Action Binding,,k1_cRelp50binding
+cReln p50n,cRelnp50n,Mass Action Binding,,k1_cRelnp50nbinding
+cRel p52,cRelp52,Mass Action Binding,,k1_cRelp52binding
+cReln p52n,cRelnp52n,Mass Action Binding,,k1_cRelnp52nbinding
+p50 p50,p50p50,Mass Action Binding,,k1_p50p50binding
+p50n p50n,p50np50n,Mass Action Binding,,k1_p50np50nbinding
+p52 p52,p52p52,Mass Action Binding,,k1_p52p52binding
+p52n p52n,p52np52n,Mass Action Binding,,k1_p52np52nbinding
+RelAp50,RelA p50,Mass Action,,k1_RelAp50unbinding
+RelAnp50n,RelAn p50n,Mass Action,,k1_RelAnp50nunbinding
+RelAp52,RelA p52,Mass Action,,k1_RelAp52unbinding
+RelAnp52n,RelAn p52n,Mass Action,,k1_RelAnp52nunbinding
+RelBp52,RelB p52,Mass Action,,k1_RelBp52unbinding
+RelBnp52n,RelBn p52n,Mass Action,,k1_RelBnp52nunbinding
+RelBp50,RelB p50,Mass Action,,k1_RelBp50unbinding
+RelBnp50n,RelBn p50n,Mass Action,,k1_RelBnp50nunbinding
+cRelp50,cRel p50,Mass Action,,k1_cRelp50unbinding
+cRelnp50n,cReln p50n,Mass Action,,k1_cRelnp50nunbinding
+cRelp52,cRel p52,Mass Action,,k1_cRelp52unbinding
+cRelnp52n,cReln p52n,Mass Action,,k1_cRelnp52nunbinding
+p50p50,p50 p50,Mass Action,,k1_p50p50unbinding
+p50np50n,p50n p50n,Mass Action,,k1_p50np50nunbinding
+p52p52,p52 p52,Mass Action,,k1_p52p52unbinding
+p52np52n,p52n p52n,Mass Action,,k1_p52np52nunbinding
+RelAp50,RelAnp50n,Mass Action,,k1_NFkBImport
+RelAnp50n,RelAp50,Mass Action,,k1_NFkBExport
+RelAp52,RelAnp52n,Mass Action,,k1_NFkBImport
+RelAnp52n,RelAp52,Mass Action,,k1_NFkBExport
+RelBp52,RelBnp52n,Mass Action,,k1_NFkBImport
+RelBnp52n,RelBp52,Mass Action,,k1_NFkBExport
+RelBp50,RelBnp50n,Mass Action,,k1_NFkBImport
+RelBnp50n,RelBp50,Mass Action,,k1_NFkBExport
+cRelp50,cRelnp50n,Mass Action,,k1_NFkBImport
+cRelnp50n,cRelp50,Mass Action,,k1_NFkBExport
+cRelp52,cRelnp52n,Mass Action,,k1_NFkBImport
+cRelnp52n,cRelp52,Mass Action,,k1_NFkBExport
+p50p50,p50np50n,Mass Action,,k1_NFkBImport
+p50np50n,p50p50,Mass Action,,k1_NFkBExport
+p52p52,p52np52n,Mass Action,,k1_NFkBImport
+p52np52n,p52p52,Mass Action,,k1_NFkBExport
+RelAp50,,Mass Action,,k1_freeNFkBDeg
+RelAnp50n,,Mass Action,,k1_freeNFkBDeg
+RelAp52,,Mass Action,,k1_freeNFkBDeg
+RelAnp52n,,Mass Action,,k1_freeNFkBDeg
+RelBp52,,Mass Action,,k1_freeNFkBDeg
+RelBnp52n,,Mass Action,,k1_freeNFkBDeg
+RelBp50,,Mass Action,,k1_freeNFkBDeg
+RelBnp50n,,Mass Action,,k1_freeNFkBDeg
+cRelp50,,Mass Action,,k1_freeNFkBDeg
+cRelnp50n,,Mass Action,,k1_freeNFkBDeg
+cRelp52,,Mass Action,,k1_freeNFkBDeg
+cRelnp52n,,Mass Action,,k1_freeNFkBDeg
+p50p50,,Mass Action,,k1_freeNFkBDeg
+p50np50n,,Mass Action,,k1_freeNFkBDeg
+p52p52,,Mass Action,,k1_freeNFkBDeg
+p52np52n,,Mass Action,,k1_freeNFkBDeg
+IkBa RelAp50,RelAp50IkBa,Mass Action Binding,,k1_IkBaRelA50Ass
+IkBan RelAnp50n,RelAnp50nIkBan,Mass Action Binding,,k1_IkBaRelA50Ass
+IkBb RelAp50,RelAp50IkBb,Mass Action Binding,,k1_IkBbRelA50Ass
+IkBbn RelAnp50n,RelAnp50nIkBbn,Mass Action Binding,,k1_IkBbRelA50Ass
+IkBe RelAp50,RelAp50IkBe,Mass Action Binding,,k1_IkBeRelA50Ass
+IkBen RelAnp50n,RelAnp50nIkBen,Mass Action Binding,,k1_IkBeRelA50Ass
+IkBd RelAp50,RelAp50IkBd,Mass Action Binding,,k1_IkBdRelA50Ass
+IkBdn RelAnp50n,RelAnp50nIkBdn,Mass Action Binding,,k1_IkBdRelA50Ass
+IkBa RelBp50,RelBp50IkBa,Mass Action Binding,,k1_IkBaRelB50Ass
+IkBan RelBnp50n,RelBnp50nIkBan,Mass Action Binding,,k1_IkBaRelB50Ass
+IkBb RelBp50,RelBp50IkBb,Mass Action Binding,,k1_IkBbRelB50Ass
+IkBbn RelBnp50n,RelBnp50nIkBbn,Mass Action Binding,,k1_IkBbRelB50Ass
+IkBe RelBp50,RelBp50IkBe,Mass Action Binding,,k1_IkBeRelB50Ass
+IkBen RelBnp50n,RelBnp50nIkBen,Mass Action Binding,,k1_IkBeRelB50Ass
+IkBd RelBp50,RelBp50IkBd,Mass Action Binding,,k1_IkBdRelB50Ass
+IkBdn RelBnp50n,RelBnp50nIkBdn,Mass Action Binding,,k1_IkBdRelB50Ass
+IkBa RelBp52,RelBp52IkBa,Mass Action Binding,,k1_IkBaRelB52Ass
+IkBan RelBnp52n,RelBnp52nIkBan,Mass Action Binding,,k1_IkBaRelB52Ass
+IkBb RelBp52,RelBp52IkBb,Mass Action Binding,,k1_IkBbRelB52Ass
+IkBbn RelBnp52n,RelBnp52nIkBbn,Mass Action Binding,,k1_IkBbRelB52Ass
+IkBe RelBp52,RelBp52IkBe,Mass Action Binding,,k1_IkBeRelB52Ass
+IkBen RelBnp52n,RelBnp52nIkBen,Mass Action Binding,,k1_IkBeRelB52Ass
+IkBd RelBp52,RelBp52IkBd,Mass Action Binding,,k1_IkBdRelB52Ass
+IkBdn RelBnp52n,RelBnp52nIkBdn,Mass Action Binding,,k1_IkBdRelB52Ass
+IkBa cRelp50,cRelp50IkBa,Mass Action Binding,,k1_IkBacRel50Ass
+IkBan cRelnp50n,cRelnp50nIkBan,Mass Action Binding,,k1_IkBacRel50Ass
+IkBb cRelp50,cRelp50IkBb,Mass Action Binding,,k1_IkBbcRel50Ass
+IkBbn cRelnp50n,cRelnp50nIkBbn,Mass Action Binding,,k1_IkBbcRel50Ass
+IkBe cRelp50,cRelp50IkBe,Mass Action Binding,,k1_IkBecRel50Ass
+IkBen cRelnp50n,cRelnp50nIkBen,Mass Action Binding,,k1_IkBecRel50Ass
+IkBd cRelp50,cRelp50IkBd,Mass Action Binding,,k1_IkBdcRel50Ass
+IkBdn cRelnp50n,cRelnp50nIkBdn,Mass Action Binding,,k1_IkBdcRel50Ass
+IkBa cRelp52,cRelp52IkBa,Mass Action Binding,,k1_IkBacRel52Ass
+IkBan cRelnp52n,cRelnp52nIkBan,Mass Action Binding,,k1_IkBacRel52Ass
+IkBb cRelp52,cRelp52IkBb,Mass Action Binding,,k1_IkBbcRel52Ass
+IkBbn cRelnp52n,cRelnp52nIkBbn,Mass Action Binding,,k1_IkBbcRel52Ass
+IkBe cRelp52,cRelp52IkBe,Mass Action Binding,,k1_IkBecRel52Ass
+IkBen cRelnp52n,cRelnp52nIkBen,Mass Action Binding,,k1_IkBecRel52Ass
+IkBd cRelp52,cRelp52IkBd,Mass Action Binding,,k1_IkBdcRel52Ass
+IkBdn cRelnp52n,cRelnp52nIkBdn,Mass Action Binding,,k1_IkBdcRel52Ass
+IkBa RelAp52,RelAp52IkBa,Mass Action Binding,,k1_IkBaRelA52Ass
+IkBan RelAnp52n,RelAnp52nIkBan,Mass Action Binding,,k1_IkBaRelA52Ass
+IkBb RelAp52,RelAp52IkBb,Mass Action Binding,,k1_IkBbRelA52Ass
+IkBbn RelAnp52n,RelAnp52nIkBbn,Mass Action Binding,,k1_IkBbRelA52Ass
+IkBe RelAp52,RelAp52IkBe,Mass Action Binding,,k1_IkBeRelA52Ass
+IkBen RelAnp52n,RelAnp52nIkBen,Mass Action Binding,,k1_IkBeRelA52Ass
+IkBd RelAp52,RelAp52IkBd,Mass Action Binding,,k1_IkBdRelA52Ass
+IkBdn RelAnp52n,RelAnp52nIkBdn,Mass Action Binding,,k1_IkBdRelA52Ass
+RelAp50IkBa,IkBa RelAp50,Mass Action,,k1_IkBaRelA50Diss
+RelAnp50nIkBan,IkBan RelAnp50n,Mass Action,,k1_IkBaRelA50Diss
+RelAp50IkBb,IkBb RelAp50,Mass Action,,k1_IkBbRelA50Diss
+RelAnp50nIkBbn,IkBbn RelAnp50n,Mass Action,,k1_IkBbRelA50Diss
+RelAp50IkBe,IkBe RelAp50,Mass Action,,k1_IkBeRelA50Diss
+RelAnp50nIkBen,IkBen RelAnp50n,Mass Action,,k1_IkBeRelA50Diss
+RelAp50IkBd,IkBd RelAp50,Mass Action,,k1_IkBdRelA50Diss
+RelAnp50nIkBdn,IkBdn RelAnp50n,Mass Action,,k1_IkBdRelA50Diss
+RelBp50IkBa,IkBa RelBp50,Mass Action,,k1_IkBaRelB50Diss
+RelBnp50nIkBan,IkBan RelBnp50n,Mass Action,,k1_IkBaRelB50Diss
+RelBp50IkBb,IkBb RelBp50,Mass Action,,k1_IkBbRelB50Diss
+RelBnp50nIkBbn,IkBbn RelBnp50n,Mass Action,,k1_IkBbRelB50Diss
+RelBp50IkBe,IkBe RelBp50,Mass Action,,k1_IkBeRelB50Diss
+RelBnp50nIkBen,IkBen RelBnp50n,Mass Action,,k1_IkBeRelB50Diss
+RelBp50IkBd,IkBd RelBp50,Mass Action,,k1_IkBdRelB50Diss
+RelBnp50nIkBdn,IkBdn RelBnp50n,Mass Action,,k1_IkBdRelB50Diss
+RelBp52IkBa,IkBa RelBp52,Mass Action,,k1_IkBaRelB52Diss
+RelBnp52nIkBan,IkBan RelBnp52n,Mass Action,,k1_IkBaRelB52Diss
+RelBp52IkBb,IkBb RelBp52,Mass Action,,k1_IkBbRelB52Diss
+RelBnp52nIkBbn,IkBbn RelBnp52n,Mass Action,,k1_IkBbRelB52Diss
+RelBp52IkBe,IkBe RelBp52,Mass Action,,k1_IkBeRelB52Diss
+RelBnp52nIkBen,IkBen RelBnp52n,Mass Action,,k1_IkBeRelB52Diss
+RelBp52IkBd,IkBd RelBp52,Mass Action,,k1_IkBdRelB52Diss
+RelBnp52nIkBdn,IkBdn RelBnp52n,Mass Action,,k1_IkBdRelB52Diss
+cRelp50IkBa,IkBa cRelp50,Mass Action,,k1_IkBacRel50Diss
+cRelnp50nIkBan,IkBan cRelnp50n,Mass Action,,k1_IkBacRel50Diss
+cRelp50IkBb,IkBb cRelp50,Mass Action,,k1_IkBbcRel50Diss
+cRelnp50nIkBbn,IkBbn cRelnp50n,Mass Action,,k1_IkBbcRel50Diss
+cRelp50IkBe,IkBe cRelp50,Mass Action,,k1_IkBecRel50Diss
+cRelnp50nIkBen,IkBen cRelnp50n,Mass Action,,k1_IkBecRel50Diss
+cRelp50IkBd,IkBd cRelp50,Mass Action,,k1_IkBdcRel50Diss
+cRelnp50nIkBdn,IkBdn cRelnp50n,Mass Action,,k1_IkBdcRel50Diss
+cRelp52IkBa,IkBa cRelp52,Mass Action,,k1_IkBacRel52Diss
+cRelnp52nIkBan,IkBan cRelnp52n,Mass Action,,k1_IkBacRel52Diss
+cRelp52IkBb,IkBb cRelp52,Mass Action,,k1_IkBbcRel52Diss
+cRelnp52nIkBbn,IkBbn cRelnp52n,Mass Action,,k1_IkBbcRel52Diss
+cRelp52IkBe,IkBe cRelp52,Mass Action,,k1_IkBecRel52Diss
+cRelnp52nIkBen,IkBen cRelnp52n,Mass Action,,k1_IkBecRel52Diss
+cRelp52IkBd,IkBd cRelp52,Mass Action,,k1_IkBdcRel52Diss
+cRelnp52nIkBdn,IkBdn cRelnp52n,Mass Action,,k1_IkBdcRel52Diss
+RelAp52IkBa,IkBa RelAp52,Mass Action,,k1_IkBaRelA52Diss
+RelAnp52nIkBan,IkBan RelAnp52n,Mass Action,,k1_IkBaRelA52Diss
+RelAp52IkBb,IkBb RelAp52,Mass Action,,k1_IkBbRelA52Diss
+RelAnp52nIkBbn,IkBbn RelAnp52n,Mass Action,,k1_IkBbRelA52Diss
+RelAp52IkBe,IkBe RelAp52,Mass Action,,k1_IkBeRelA52Diss
+RelAnp52nIkBen,IkBen RelAnp52n,Mass Action,,k1_IkBeRelA52Diss
+RelAp52IkBd,IkBd RelAp52,Mass Action,,k1_IkBdRelA52Diss
+RelAnp52nIkBdn,IkBdn RelAnp52n,Mass Action,,k1_IkBdRelA52Diss
+RelAp50IkBa,RelAnp50nIkBan,Mass Action,,k1_RelAp50IkBanucImport
+RelAp50IkBb,RelAnp50nIkBbn,Mass Action,,k1_RelAp50IkBbnucImport
+RelAp50IkBe,RelAnp50nIkBen,Mass Action,,k1_RelAp50IkBenucImport
+RelAp50IkBd,RelAnp50nIkBdn,Mass Action,,k1_RelAp50IkBdnucImport
+RelBp50IkBa,RelBnp50nIkBan,Mass Action,,k1_RelBp50IkBanucImport
+RelBp50IkBb,RelBnp50nIkBbn,Mass Action,,k1_RelBp50IkBbnucImport
+RelBp50IkBe,RelBnp50nIkBen,Mass Action,,k1_RelBp50IkBenucImport
+RelBp50IkBd,RelBnp50nIkBdn,Mass Action,,k1_RelBp50IkBdnucImport
+RelBp52IkBa,RelBnp52nIkBan,Mass Action,,k1_RelBp52IkBanucImport
+RelBp52IkBb,RelBnp52nIkBbn,Mass Action,,k1_RelBp52IkBbnucImport
+RelBp52IkBe,RelBnp52nIkBen,Mass Action,,k1_RelBp52IkBenucImport
+RelBp52IkBd,RelBnp52nIkBdn,Mass Action,,k1_RelBp52IkBdnucImport
+cRelp50IkBa,cRelnp50nIkBan,Mass Action,,k1_cRelp50IkBanucImport
+cRelp50IkBb,cRelnp50nIkBbn,Mass Action,,k1_cRelp50IkBbnucImport
+cRelp50IkBe,cRelnp50nIkBen,Mass Action,,k1_cRelp50IkBenucImport
+cRelp50IkBd,cRelnp50nIkBdn,Mass Action,,k1_cRelp50IkBdnucImport
+cRelp52IkBa,cRelnp52nIkBan,Mass Action,,k1_cRelp52IkBanucImport
+cRelp52IkBb,cRelnp52nIkBbn,Mass Action,,k1_cRelp52IkBbnucImport
+cRelp52IkBe,cRelnp52nIkBen,Mass Action,,k1_cRelp52IkBenucImport
+cRelp52IkBd,cRelnp52nIkBdn,Mass Action,,k1_cRelp52IkBdnucImport
+RelAp52IkBa,RelAnp52nIkBan,Mass Action,,k1_RelAp52IkBanucImport
+RelAp52IkBb,RelAnp52nIkBbn,Mass Action,,k1_RelAp52IkBbnucImport
+RelAp52IkBe,RelAnp52nIkBen,Mass Action,,k1_RelAp52IkBenucImport
+RelAp52IkBd,RelAnp52nIkBdn,Mass Action,,k1_RelAp52IkBdnucImport
+RelAnp50nIkBan,RelAp50IkBa,Mass Action,,k1_RelAnp50nIkBannucExport
+RelAnp50nIkBbn,RelAp50IkBb,Mass Action,,k1_RelAnp50nIkBbnnucExport
+RelAnp50nIkBen,RelAp50IkBe,Mass Action,,k1_RelAnp50nIkBennucExport
+RelAnp50nIkBdn,RelAp50IkBd,Mass Action,,k1_RelAnp50nIkBdnnucExport
+RelBnp50nIkBan,RelBp50IkBa,Mass Action,,k1_RelBnp50nIkBannucExport
+RelBnp50nIkBbn,RelBp50IkBb,Mass Action,,k1_RelBnp50nIkBbnnucExport
+RelBnp50nIkBen,RelBp50IkBe,Mass Action,,k1_RelBnp50nIkBennucExport
+RelBnp50nIkBdn,RelBp50IkBd,Mass Action,,k1_RelBnp50nIkBdnnucExport
+RelBnp52nIkBan,RelBp52IkBa,Mass Action,,k1_RelBnp52nIkBannucExport
+RelBnp52nIkBbn,RelBp52IkBb,Mass Action,,k1_RelBnp52nIkBbnnucExport
+RelBnp52nIkBen,RelBp52IkBe,Mass Action,,k1_RelBnp52nIkBennucExport
+RelBnp52nIkBdn,RelBp52IkBd,Mass Action,,k1_RelBnp52nIkBdnnucExport
+cRelnp50nIkBan,cRelp50IkBa,Mass Action,,k1_cRelnp50nIkBannucExport
+cRelnp50nIkBbn,cRelp50IkBb,Mass Action,,k1_cRelnp50nIkBbnnucExport
+cRelnp50nIkBen,cRelp50IkBe,Mass Action,,k1_cRelnp50nIkBennucExport
+cRelnp50nIkBdn,cRelp50IkBd,Mass Action,,k1_cRelnp50nIkBdnnucExport
+cRelnp52nIkBan,cRelp52IkBa,Mass Action,,k1_cRelnp52nIkBannucExport
+cRelnp52nIkBbn,cRelp52IkBb,Mass Action,,k1_cRelnp52nIkBbnnucExport
+cRelnp52nIkBen,cRelp52IkBe,Mass Action,,k1_cRelnp52nIkBennucExport
+cRelnp52nIkBdn,cRelp52IkBd,Mass Action,,k1_cRelnp52nIkBdnnucExport
+RelAnp52nIkBan,RelAp52IkBa,Mass Action,,k1_RelAnp52nIkBannucExport
+RelAnp52nIkBbn,RelAp52IkBb,Mass Action,,k1_RelAnp52nIkBbnnucExport
+RelAnp52nIkBen,RelAp52IkBe,Mass Action,,k1_RelAnp52nIkBennucExport
+RelAnp52nIkBdn,RelAp52IkBd,Mass Action,,k1_RelAnp52nIkBdnnucExport
+RelAp50IkBa,RelAp50,Mass Action IKK,,k1_IkBaDegIKK ikk1_ikkactivity
+RelAp50IkBb,RelAp50,Mass Action IKK,,k1_IkBbDegIKK ikk1_ikkactivity
+RelAp50IkBe,RelAp50,Mass Action IKK,,k1_IkBeDegIKK ikk1_ikkactivity
+RelBp50IkBa,RelBp50,Mass Action IKK,,k1_IkBaDegIKK ikk1_ikkactivity
+RelBp50IkBb,RelBp50,Mass Action IKK,,k1_IkBbDegIKK ikk1_ikkactivity
+RelBp50IkBe,RelBp50,Mass Action IKK,,k1_IkBeDegIKK ikk1_ikkactivity
+RelBp52IkBa,RelBp52,Mass Action IKK,,k1_IkBaDegIKK ikk1_ikkactivity
+RelBp52IkBb,RelBp52,Mass Action IKK,,k1_IkBbDegIKK ikk1_ikkactivity
+RelBp52IkBe,RelBp52,Mass Action IKK,,k1_IkBeDegIKK ikk1_ikkactivity
+cRelp50IkBa,cRelp50,Mass Action IKK,,k1_IkBaDegIKK ikk1_ikkactivity
+cRelp50IkBb,cRelp50,Mass Action IKK,,k1_IkBbDegIKK ikk1_ikkactivity
+cRelp50IkBe,cRelp50,Mass Action IKK,,k1_IkBeDegIKK ikk1_ikkactivity
+cRelp52IkBa,cRelp52,Mass Action IKK,,k1_IkBaDegIKK ikk1_ikkactivity
+cRelp52IkBb,cRelp52,Mass Action IKK,,k1_IkBbDegIKK ikk1_ikkactivity
+cRelp52IkBe,cRelp52,Mass Action IKK,,k1_IkBeDegIKK ikk1_ikkactivity
+RelAp52IkBa,RelAp52,Mass Action IKK,,k1_IkBaDegIKK ikk1_ikkactivity
+RelAp52IkBb,RelAp52,Mass Action IKK,,k1_IkBbDegIKK ikk1_ikkactivity
+RelAp52IkBe,RelAp52,Mass Action IKK,,k1_IkBeDegIKK ikk1_ikkactivity
+RelAp50IkBa,RelAp50,Mass Action,,k1_IkBDeg
+RelAp50IkBb,RelAp50,Mass Action,,k1_IkBDeg
+RelAp50IkBe,RelAp50,Mass Action,,k1_IkBDeg
+RelAp50IkBd,RelAp50,Mass Action,,k1_IkBDeg
+RelBp50IkBa,RelBp50,Mass Action,,k1_IkBDeg
+RelBp50IkBb,RelBp50,Mass Action,,k1_IkBDeg
+RelBp50IkBe,RelBp50,Mass Action,,k1_IkBDeg
+RelBp50IkBd,RelBp50,Mass Action,,k1_IkBDeg
+RelBp52IkBa,RelBp52,Mass Action,,k1_IkBDeg
+RelBp52IkBb,RelBp52,Mass Action,,k1_IkBDeg
+RelBp52IkBe,RelBp52,Mass Action,,k1_IkBDeg
+RelBp52IkBd,RelBp52,Mass Action,,k1_IkBDeg
+cRelp50IkBa,cRelp50,Mass Action,,k1_IkBDeg
+cRelp50IkBb,cRelp50,Mass Action,,k1_IkBDeg
+cRelp50IkBe,cRelp50,Mass Action,,k1_IkBDeg
+cRelp50IkBd,cRelp50,Mass Action,,k1_IkBDeg
+cRelp52IkBa,cRelp52,Mass Action,,k1_IkBDeg
+cRelp52IkBb,cRelp52,Mass Action,,k1_IkBDeg
+cRelp52IkBe,cRelp52,Mass Action,,k1_IkBDeg
+cRelp52IkBd,cRelp52,Mass Action,,k1_IkBDeg
+RelAp52IkBa,RelAp52,Mass Action,,k1_IkBDeg
+RelAp52IkBb,RelAp52,Mass Action,,k1_IkBDeg
+RelAp52IkBe,RelAp52,Mass Action,,k1_IkBDeg
+RelAp52IkBd,RelAp52,Mass Action,,k1_IkBDeg
+RelAnp50nIkBan,RelAnp50n,Mass Action,,k1_IkBDeg
+RelAnp50nIkBbn,RelAnp50n,Mass Action,,k1_IkBDeg
+RelAnp50nIkBen,RelAnp50n,Mass Action,,k1_IkBDeg
+RelAnp50nIkBdn,RelAnp50n,Mass Action,,k1_IkBDeg
+RelBnp50nIkBan,RelBnp50n,Mass Action,,k1_IkBDeg
+RelBnp50nIkBbn,RelBnp50n,Mass Action,,k1_IkBDeg
+RelBnp50nIkBen,RelBnp50n,Mass Action,,k1_IkBDeg
+RelBnp50nIkBdn,RelBnp50n,Mass Action,,k1_IkBDeg
+RelBnp52nIkBan,RelBnp52n,Mass Action,,k1_IkBDeg
+RelBnp52nIkBbn,RelBnp52n,Mass Action,,k1_IkBDeg
+RelBnp52nIkBen,RelBnp52n,Mass Action,,k1_IkBDeg
+RelBnp52nIkBdn,RelBnp52n,Mass Action,,k1_IkBDeg
+cRelnp50nIkBan,cRelnp50n,Mass Action,,k1_IkBDeg
+cRelnp50nIkBbn,cRelnp50n,Mass Action,,k1_IkBDeg
+cRelnp50nIkBen,cRelnp50n,Mass Action,,k1_IkBDeg
+cRelnp50nIkBdn,cRelnp50n,Mass Action,,k1_IkBDeg
+cRelnp52nIkBan,cRelnp52n,Mass Action,,k1_IkBDeg
+cRelnp52nIkBbn,cRelnp52n,Mass Action,,k1_IkBDeg
+cRelnp52nIkBen,cRelnp52n,Mass Action,,k1_IkBDeg
+cRelnp52nIkBdn,cRelnp52n,Mass Action,,k1_IkBDeg
+RelAnp52nIkBan,RelAnp52n,Mass Action,,k1_IkBDeg
+RelAnp52nIkBbn,RelAnp52n,Mass Action,,k1_IkBDeg
+RelAnp52nIkBen,RelAnp52n,Mass Action,,k1_IkBDeg
+RelAnp52nIkBdn,RelAnp52n,Mass Action,,k1_IkBDeg
+RelAp50IkBa,IkBa,Mass Action,,k1_NFkBDeg
+RelAp50IkBb,IkBb,Mass Action,,k1_NFkBDeg
+RelAp50IkBe,IkBe,Mass Action,,k1_NFkBDeg
+RelAp50IkBd,IkBd,Mass Action,,k1_NFkBDeg
+RelBp50IkBa,IkBa,Mass Action,,k1_NFkBDeg
+RelBp50IkBb,IkBb,Mass Action,,k1_NFkBDeg
+RelBp50IkBe,IkBe,Mass Action,,k1_NFkBDeg
+RelBp50IkBd,IkBd,Mass Action,,k1_NFkBDeg
+RelBp52IkBa,IkBa,Mass Action,,k1_NFkBDeg
+RelBp52IkBb,IkBb,Mass Action,,k1_NFkBDeg
+RelBp52IkBe,IkBe,Mass Action,,k1_NFkBDeg
+RelBp52IkBd,IkBd,Mass Action,,k1_NFkBDeg
+cRelp50IkBa,IkBa,Mass Action,,k1_NFkBDeg
+cRelp50IkBb,IkBb,Mass Action,,k1_NFkBDeg
+cRelp50IkBe,IkBe,Mass Action,,k1_NFkBDeg
+cRelp50IkBd,IkBd,Mass Action,,k1_NFkBDeg
+cRelp52IkBa,IkBa,Mass Action,,k1_NFkBDeg
+cRelp52IkBb,IkBb,Mass Action,,k1_NFkBDeg
+cRelp52IkBe,IkBe,Mass Action,,k1_NFkBDeg
+cRelp52IkBd,IkBd,Mass Action,,k1_NFkBDeg
+RelAp52IkBa,IkBa,Mass Action,,k1_NFkBDeg
+RelAp52IkBb,IkBb,Mass Action,,k1_NFkBDeg
+RelAp52IkBe,IkBe,Mass Action,,k1_NFkBDeg
+RelAp52IkBd,IkBd,Mass Action,,k1_NFkBDeg
+RelAnp50nIkBan,IkBan,Mass Action,,k1_NFkBDeg
+RelAnp50nIkBbn,IkBbn,Mass Action,,k1_NFkBDeg
+RelAnp50nIkBen,IkBen,Mass Action,,k1_NFkBDeg
+RelAnp50nIkBdn,IkBdn,Mass Action,,k1_NFkBDeg
+RelBnp50nIkBan,IkBan,Mass Action,,k1_NFkBDeg
+RelBnp50nIkBbn,IkBbn,Mass Action,,k1_NFkBDeg
+RelBnp50nIkBen,IkBen,Mass Action,,k1_NFkBDeg
+RelBnp50nIkBdn,IkBdn,Mass Action,,k1_NFkBDeg
+RelBnp52nIkBan,IkBan,Mass Action,,k1_NFkBDeg
+RelBnp52nIkBbn,IkBbn,Mass Action,,k1_NFkBDeg
+RelBnp52nIkBen,IkBen,Mass Action,,k1_NFkBDeg
+RelBnp52nIkBdn,IkBdn,Mass Action,,k1_NFkBDeg
+cRelnp50nIkBan,IkBan,Mass Action,,k1_NFkBDeg
+cRelnp50nIkBbn,IkBbn,Mass Action,,k1_NFkBDeg
+cRelnp50nIkBen,IkBen,Mass Action,,k1_NFkBDeg
+cRelnp50nIkBdn,IkBdn,Mass Action,,k1_NFkBDeg
+cRelnp52nIkBan,IkBan,Mass Action,,k1_NFkBDeg
+cRelnp52nIkBbn,IkBbn,Mass Action,,k1_NFkBDeg
+cRelnp52nIkBen,IkBen,Mass Action,,k1_NFkBDeg
+cRelnp52nIkBdn,IkBdn,Mass Action,,k1_NFkBDeg
+RelAnp52nIkBan,IkBan,Mass Action,,k1_NFkBDeg
+RelAnp52nIkBbn,IkBbn,Mass Action,,k1_NFkBDeg
+RelAnp52nIkBen,IkBen,Mass Action,,k1_NFkBDeg
+RelAnp52nIkBdn,IkBdn,Mass Action,,k1_NFkBDeg
+,tIkBb,Constant Rate,,k1_tIkBb
+,tIkBa,Hill Promotion Induction IkB two,"delay(RelAnp50n,15) delay(RelAnp52n,15)",kmax_IkBaSynth k1_IkBaSynth Kd1_IkBaSynth k2_IkBaSynth Kd2_IkBaSynth kh_IkBaSynth
+,tIkBe,Hill Promotion Induction IkB four,"delay(RelAnp50n,45) delay(RelAnp52n,45) delay(cRelnp50n,45) delay(cRelnp52n,45)",kmax_IkBeSynth k1_IkBeSynth Kd1_IkBeSynth k2_IkBeSynth Kd2_IkBeSynth k3_IkBeSynth Kd3_IkBeSynth k4_IkBeSynth Kd4_IkBeSynth kh_IkBeSynth delay_IkBeSynth
+tIkBa,,Mass Action,,k1_tIkBaDeg
+tIkBb,,Mass Action,,k1_tIkBbDeg
+tIkBe,,Mass Action,,k1_tIkBeDeg
+tIkBa,tIkBa IkBa,Mass Action,,k1_IkBTsl
+tIkBb,tIkBb IkBb,Mass Action,,k1_IkBTsl
+tIkBe,tIkBe IkBe,Mass Action,,k1_IkBTsl
+IkBa,,Mass Action,,k1_IkBadeg
+IkBb,,Mass Action,,k1_IkBbdeg
+IkBe,,Mass Action,,k1_IkBedeg
+IkBd,,Mass Action,,k1_IkBddeg
+IkBa,IkBan,Mass Action,,k1_IkBanucImport
+IkBb,IkBbn,Mass Action,,k1_IkBbnucImport
+IkBe,IkBen,Mass Action,,k1_IkBenucImport
+IkBd,IkBdn,Mass Action,,k1_IkBdnucImport
+IkBan,IkBa,Mass Action,,k1_IkBannucExport
+IkBbn,IkBb,Mass Action,,k1_IkBbnnucExport
+IkBen,IkBe,Mass Action,,k1_IkBennucExport
+IkBdn,IkBd,Mass Action,,k1_IkBdnnucExport
+IkBa,,Mass Action IKK,,k1_IkBaDegIKK ikk1_ikkactivity
+IkBb,,Mass Action IKK,,k1_IkBbDegIKK ikk1_ikkactivity
+IkBe,,Mass Action IKK,,k1_IkBeDegIKK ikk1_ikkactivity
+IkBan,,Mass Action,,k1_IkBadeg
+IkBbn,,Mass Action,,k1_IkBbdeg
+IkBen,,Mass Action,,k1_IkBedeg
+IkBdn,,Mass Action,,k1_IkBddeg
+,tRelA,Constant Rate,,k1_RelASynth
+,tp50,Hill Promotion Induction NFkB four,"delay(RelAnp50n,60) delay(RelAnp52n,60) delay(cRelnp50n,60) delay(cRelnp52n,60)",basal_p50Synth k1_p50Synth Kd1_p50Synth k2_p50Synth Kd2_p50Synth k3_p50Synth Kd3_p50Synth k4_p50Synth Kd4_p50Synth kh_p50Synth delay_p50Synth scale_ind
+,tRelB,Hill Promotion Induction NFkB four,"delay(RelAnp50n,60) delay(RelAnp52n,60) delay(cRelnp50n,60) delay(cRelnp52n,60)",basal_RelBSynth k1_RelBSynth Kd1_RelBSynth k2_RelBSynth Kd2_RelBSynth k3_RelBSynth Kd3_RelBSynth k4_RelBSynth Kd4_RelBSynth kh_RelBSynth delay_RelBSynth scale_ind
+,tp100,Hill Promotion Induction IkB four,"delay(RelAnp50n,240) delay(RelAnp52n,240) delay(cRelnp50n,240) delay(cRelnp52n,240)",kmax_p100Synth k1_p100Synth Kd1_p100Synth k2_p100Synth Kd2_p100Synth k3_p100Synth Kd3_p100Synth k4_p100Synth Kd4_p100Synth kh_p100Synth delay_p100Synth scale_p100
+,tcRel,Hill Promotion Induction NFkB four,"delay(RelAnp50n,720) delay(RelAnp52n,720) delay(cRelnp50n,720) delay(cRelnp52n,720)",basal_cRelSynth k1_cRelSynth Kd1_cRelSynth k2_cRelSynth Kd2_cRelSynth k3_cRelSynth Kd3_cRelSynth k4_cRelSynth Kd4_cRelSynth kh_cRelSynth delay_cRelSynth scale_ind
+tRelA,,Mass Action,,k1_tRelAdeg
+tp50,,Mass Action,,k1_tp50deg
+tRelB,,Mass Action,,k1_tRelBdeg
+tp100,,Mass Action,,k1_tp100deg
+tcRel,,Mass Action,,k1_tcReldeg
+tRelA,tRelA RelA,Mass Action,,k1_monTsl
+tp50,tp50 p50,Mass Action,,k1_monTsl
+tRelB,tRelB RelB,Mass Action,,k1_monTsl
+tp100,tp100 p100,Mass Action,,k1_monTsl
+tcRel,tcRel cRel,Mass Action,,k1_monTsl
+RelA,,Mass Action,,k1_monDeg
+p50,,Mass Action,,k1_monDeg
+RelB,,Mass Action,,k1_monDeg
+p100,,Mass Action,,k1_monDeg
+p52,,Mass Action,,k1_monDeg
+cRel,,Mass Action,,k1_monDeg
+RelAn,,Mass Action,,k1_monDeg
+p50n,,Mass Action,,k1_monDeg
+RelBn,,Mass Action,,k1_monDeg
+p100n,,Mass Action,,k1_monDeg
+p52n,,Mass Action,,k1_monDeg
+cReln,,Mass Action,,k1_monDeg
+,NIK,Constant Rate,,k1_NIKSynth
+NIK,,Mass Action NIK,,k1_NIKConstDeg nik_deg_mod
+p100 p100,IkBd,Mass Action Binding,,k1_p100Dimerization
+p100n p100n,IkBdn,Mass Action Binding,,k1_p100Dimerization
+IkBd,p100 p100,Mass Action,,k1_p100Dissociation
+IkBdn,p100n p100n,Mass Action,,k1_p100Dissociation
+p100 NIK,p100NIK,Mass Action Binding,,k1_onNIKp100
+p100NIK,p100 NIK,Mass Action,,k1_offNIKp100
+p100NIK,NIK p52,Mass Action,,k1_NIKp100Processing
+IkBd NIK,IkBdNIK,Mass Action Binding,,k1_onNIKp100
+IkBdNIK,IkBd NIK,Mass Action,,k1_offNIKp100
+IkBdNIK,NIK,Mass Action,,k1_NIKDeltaDeg
+RelAp50IkBd NIK,RelAp50IkBdNIK,Mass Action Binding,,k1_onNIKp100
+RelBp50IkBd NIK,RelBp50IkBdNIK,Mass Action Binding,,k1_onNIKp100
+RelBp52IkBd NIK,RelBp52IkBdNIK,Mass Action Binding,,k1_onNIKp100
+cRelp50IkBd NIK,cRelp50IkBdNIK,Mass Action Binding,,k1_onNIKp100
+cRelp52IkBd NIK,cRelp52IkBdNIK,Mass Action Binding,,k1_onNIKp100
+RelAp52IkBd NIK,RelAp52IkBdNIK,Mass Action Binding,,k1_onNIKp100
+RelAp50IkBdNIK,RelAp50IkBd NIK,Mass Action,,k1_offNIKp100
+RelBp50IkBdNIK,RelBp50IkBd NIK,Mass Action,,k1_offNIKp100
+RelBp52IkBdNIK,RelBp52IkBd NIK,Mass Action,,k1_offNIKp100
+cRelp50IkBdNIK,cRelp50IkBd NIK,Mass Action,,k1_offNIKp100
+cRelp52IkBdNIK,cRelp52IkBd NIK,Mass Action,,k1_offNIKp100
+RelAp52IkBdNIK,RelAp52IkBd NIK,Mass Action,,k1_offNIKp100
+RelAp50IkBdNIK,RelAp50 NIK,Mass Action,,k1_NIKDeltaDeg
+RelBp50IkBdNIK,RelBp50 NIK,Mass Action,,k1_NIKDeltaDeg
+RelBp52IkBdNIK,RelBp52 NIK,Mass Action,,k1_NIKDeltaDeg
+cRelp50IkBdNIK,cRelp50 NIK,Mass Action,,k1_NIKDeltaDeg
+cRelp52IkBdNIK,cRelp52 NIK,Mass Action,,k1_NIKDeltaDeg
+RelAp52IkBdNIK,RelAp52 NIK,Mass Action,,k1_NIKDeltaDeg
+RelAp50IkBdNIK,RelAp50IkBd,Mass Action NIK,,k1_NIKConstDeg nik_deg_mod
+RelBp50IkBdNIK,RelBp50IkBd,Mass Action NIK,,k1_NIKConstDeg nik_deg_mod
+RelBp52IkBdNIK,RelBp52IkBd,Mass Action NIK,,k1_NIKConstDeg nik_deg_mod
+cRelp50IkBdNIK,cRelp50IkBd,Mass Action NIK,,k1_NIKConstDeg nik_deg_mod
+cRelp52IkBdNIK,cRelp52IkBd,Mass Action NIK,,k1_NIKConstDeg nik_deg_mod
+RelAp52IkBdNIK,RelAp52IkBd,Mass Action NIK,,k1_NIKConstDeg nik_deg_mod
+IkBdNIK,IkBd,Mass Action NIK,,k1_NIKConstDeg nik_deg_mod
+p100NIK,p100,Mass Action NIK,,k1_NIKConstDeg nik_deg_mod
+RelAp50IkBdNIK,IkBdNIK,Mass Action,,k1_NFkBDeg
+RelBp50IkBdNIK,IkBdNIK,Mass Action,,k1_NFkBDeg
+RelBp52IkBdNIK,IkBdNIK,Mass Action,,k1_NFkBDeg
+cRelp50IkBdNIK,IkBdNIK,Mass Action,,k1_NFkBDeg
+cRelp52IkBdNIK,IkBdNIK,Mass Action,,k1_NFkBDeg
+RelAp52IkBdNIK,IkBdNIK,Mass Action,,k1_NFkBDeg
+RelAp50IkBdNIK,RelAp50 NIK,Mass Action,,k1_IkBDeg
+RelBp50IkBdNIK,RelBp50 NIK,Mass Action,,k1_IkBDeg
+RelBp52IkBdNIK,RelBp52 NIK,Mass Action,,k1_IkBDeg
+cRelp50IkBdNIK,cRelp50 NIK,Mass Action,,k1_IkBDeg
+cRelp52IkBdNIK,cRelp52 NIK,Mass Action,,k1_IkBDeg
+RelAp52IkBdNIK,RelAp52 NIK,Mass Action,,k1_IkBDeg

@@ -1,0 +1,51 @@
+Substrate,Products,Kinetic Law,Modifiers,Parameters
+IkBa,,Mass Action Mod,IKK_on,k1_IkBaDegIKK
+IkBb,,Mass Action Mod,IKK_on,k1_IkBbDegIKK
+IkBe,,Mass Action Mod,IKK_on,k1_IkBeDegIKK
+IkBa,,Mass Action,,k1_IkBadeg
+IkBb,,Mass Action,,k1_IkBbdeg
+IkBe,,Mass Action,,k1_IkBedeg
+RelAp50IkBa,RelAp50,Mass Action Mod,IKK_on,k1_IkBaDegIKK
+RelAp50IkBb,RelAp50,Mass Action Mod,IKK_on,k1_IkBbDegIKK
+RelAp50IkBe,RelAp50,Mass Action Mod,IKK_on,k1_IkBeDegIKK
+RelBp50IkBa,RelBp50,Mass Action Mod,IKK_on,k1_IkBaDegIKK
+RelBp50IkBb,RelBp50,Mass Action Mod,IKK_on,k1_IkBbDegIKK
+RelBp50IkBe,RelBp50,Mass Action Mod,IKK_on,k1_IkBeDegIKK
+RelBp52IkBa,RelBp52,Mass Action Mod,IKK_on,k1_IkBaDegIKK
+RelBp52IkBb,RelBp52,Mass Action Mod,IKK_on,k1_IkBbDegIKK
+RelBp52IkBe,RelBp52,Mass Action Mod,IKK_on,k1_IkBeDegIKK
+cRelp50IkBa,cRelp50,Mass Action Mod,IKK_on,k1_IkBaDegIKK
+cRelp50IkBb,cRelp50,Mass Action Mod,IKK_on,k1_IkBbDegIKK
+cRelp50IkBe,cRelp50,Mass Action Mod,IKK_on,k1_IkBeDegIKK
+cRelp52IkBa,cRelp52,Mass Action Mod,IKK_on,k1_IkBaDegIKK
+cRelp52IkBb,cRelp52,Mass Action Mod,IKK_on,k1_IkBbDegIKK
+cRelp52IkBe,cRelp52,Mass Action Mod,IKK_on,k1_IkBeDegIKK
+RelAp52IkBa,RelAp52,Mass Action Mod,IKK_on,k1_IkBaDegIKK
+RelAp52IkBb,RelAp52,Mass Action Mod,IKK_on,k1_IkBbDegIKK
+RelAp52IkBe,RelAp52,Mass Action Mod,IKK_on,k1_IkBeDegIKK
+RelAp50IkBa,RelAp50,Mass Action,,k1_IkBDeg
+RelAp50IkBb,RelAp50,Mass Action,,k1_IkBDeg
+RelAp50IkBe,RelAp50,Mass Action,,k1_IkBDeg
+RelBp50IkBa,RelBp50,Mass Action,,k1_IkBDeg
+RelBp50IkBb,RelBp50,Mass Action,,k1_IkBDeg
+RelBp50IkBe,RelBp50,Mass Action,,k1_IkBDeg
+RelBp52IkBa,RelBp52,Mass Action,,k1_IkBDeg
+RelBp52IkBb,RelBp52,Mass Action,,k1_IkBDeg
+RelBp52IkBe,RelBp52,Mass Action,,k1_IkBDeg
+cRelp50IkBa,cRelp50,Mass Action,,k1_IkBDeg
+cRelp50IkBb,cRelp50,Mass Action,,k1_IkBDeg
+cRelp50IkBe,cRelp50,Mass Action,,k1_IkBDeg
+cRelp52IkBa,cRelp52,Mass Action,,k1_IkBDeg
+cRelp52IkBb,cRelp52,Mass Action,,k1_IkBDeg
+cRelp52IkBe,cRelp52,Mass Action,,k1_IkBDeg
+RelAp52IkBa,RelAp52,Mass Action,,k1_IkBDeg
+RelAp52IkBb,RelAp52,Mass Action,,k1_IkBDeg
+RelAp52IkBe,RelAp52,Mass Action,,k1_IkBDeg
+TAK1,TAK1p,Spontaneous,,k1_Tp0
+TAK1,TAK1p,Activation_bymod1,Cp,k1_CTpS k2_kmCTpS
+TAK1,TAK1p,Activation_bymod1,CpB,k1_CBTpS k2_kmCBTpS
+TAK1,TAK1p,Activation_bymod1,CpM,k1_CMTpS k2_kmCMTpS
+TAK1,TAK1p,Activation_bymod1,CpBM,k1_CBMTpS k2_kmCBMTpS
+TAK1,TAK1p,Activation_bymod1,TRAF6s,k1_Tak1TRAF6 k2_kmTak1TRAF6
+TAK1C,TAK1pC,Activation_bymod1,TRAF6s,k1_Tak1TRAF6 k2_kmTak1TRAF6
+TAK1p,TAK1,Spontaneous,,k1_IKKKdeactivation

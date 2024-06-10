@@ -1,0 +1,21 @@
+Name,Definition
+Mass Action Binding,[S1]*[S2]*{k1}
+Constant,{k1}
+Mass Action Deg,[S1]*{k1}
+Modifier Inhibition,{vmax}*1-([Mod1]/({km}+[Mod1]))
+Activation by Kinase,[S1]*[Mod1]*{k1}
+Hill Xorder Activation,({k1}*[S1]*([Mod1]^{k2}))/(([Mod2]^{k2})+({k3}^{k2}))
+Spontaneous,[S1]*{k1}
+Delayed Mass Action,[S1]*{k1}*[Mod1]
+Nothing,0
+Degradation half life,[S1]*{k1}
+InhibitHillEquation,(([Mod1]*[S1]*{k1})/([S1]+{k2}))*(1-([Mod2]/({k3}+[Mod2])))
+Activation_bymod1_inhibitionbymod2,([Mod1]*[S1]*{k1})/(([S1]+{k2})*[Mod2])
+Activation_bymod1,([Mod1]*[S1]*{k1})/([S1]+{k2})
+Activation by function k3_p(t),({k3}*[S1]*{k1})/([S1]+{k2})
+Hill Equation,([S1] * {k1}) / ([S1] + {k2})
+DualAssociation,{k1} * ( [S1]+[S2] ) * [S3]
+AddFour,([Mod1]+[Mod2]+[Mod3]+[Mod4])
+Hill Equation with Modifier ,( {k1}*[Mod1]*[S1] ) / ( {k2} + [S1] )
+A20 Alternate Expression,([Mod1] + [Mod2] + [Mod3] + [Mod4]) *{k1}
+DualModAssociation,{k1} * ( [Mod1] + [Mod2] ) * [S1]

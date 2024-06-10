@@ -1,0 +1,50 @@
+Substrate,Products,Kinetic Law,Modifiers,Parameters
+CD14,CD14LPS,Activation by function k2_TLRFunc(t),,k1_konCD14LPS k2_LPSmod k3_kmCD14LPS
+CD14LPS ,CD14,Mass Action Deg,,k1_koffCD14LPS
+TLR4 CD14LPS,TLR4LPS,Mass Action Binding,,k1_CD14LPSassTLR4
+TLR4LPS,CD14LPS TLR4,Mass Action Deg,,k1_CD14LPSdissTLR4
+TLR4en CD14LPSen,TLR4LPSen,Mass Action Binding,,k1_CD14LPSassTLR4
+TLR4LPSen,TLR4en CD14LPSen,Mass Action Deg,,k1_CD14LPSdissTLR4
+CD14LPS ,CD14LPSen,Spontaneous,,k1_CD14LPSendocytosis
+CD14LPSen,CD14LPS,Spontaneous,,k1_CD14LPSrecycling
+CD14LPSen,,Mass Action Deg,,k1_LPSdeg
+TLR4,TLR4en,Spontaneous,,k1_TLR4endocytosis
+TLR4en,TLR4,Spontaneous,,k1_TLR4recycling
+TLR4en,,Mass Action Deg,,k1_TLR4deg
+TLR4LPS,TLR4LPSen,Spontaneous,,k1_ligandinducedTLR4LPSendocytosis
+TLR4LPSen,TLR4LPS,Spontaneous,,k1_TLR4LPSrecyclingslow
+TLR4LPSen,,Mass Action Deg,,k1_TLR4LPSendeg
+TLR4LPSen,,Delayed Mass Action,cbswitch,k1_delayedTLR4LPSendeg
+,TLR4,Constant,,k1_TLR4synth
+,CD14,Constant,,k1_CD14synth 
+CD14,,Mass Action Deg,,k1_CD14deg
+MYD88,MYD88s,Hill Xorder Activation,TLR4LPS TLR4LPS,k1_MYD88activationbyTLR4 k2_MYD88activationHILL k3_MYD88activationEC50
+MYD88s,MYD88,Spontaneous,,k1_MYD88deactivation
+TRIF,TRIFs,Linear Activation_bymod1,TLR4LPSen ,k1_TRIFactivation
+TRIFs,TRIF,Spontaneous,,k1_TRIFinhibition
+TRAF6,TRAF6s,Linear Activation_bymod1,MYD88s,k1_TRAF6activationbyMYD88
+TRAF6,TRAF6s,Linear Activation_bymod1,TRIFs,k1_TRAF6activationbyTRIF
+TRAF6s,TRAF6,Spontaneous,,k1_TRAF6inhibition
+TAK1,TAK1p,Linear Activation_bymod1,TRAF6s,k1_TRAF6mediatedIKKK_offactivation
+TAK1p,TAK1,Spontaneous,,k1_IKKKdeactivation
+IKK_off,IKK_on,Linear Activation_bymod1,IKKK_on,k1_IKKKmediatedIKKactivation
+IKK_on,IKK_off,Spontaneous,,k1_IKKdeactivation
+IKK_on,IKK_off,Spontaneous,,k1_IKKinhibition
+IKK_on,IKK_i,Mass Action Deg,,k1_IKKdeactivation
+IKK_i,IKK_off,Spontaneous,,k1_IKKirecycledtoIKK_off
+TBK1,TBK1s,Linear Activation_bymod1,TRIFs,k1_TBK1activationbyTRIF
+TBK1s,TBK1,Spontaneous,,k1_TBK1deactivation
+IRF3,IRF3s,Linear Activation_bymod1,TBK1s,k1_IRF3activationbyTBK1
+IRF3s,IRF3,Spontaneous,,k1_IRF3deactivation
+IRF3n,IRF3ns,Spontaneous,,k1_IRF3activationinnucleus
+IRF3ns,IRF3n,Spontaneous,,k1_IRF3inactivationinnucleus
+IRF3,IRF3n,Spontaneous,,k1_IRF3translocationtonucleus
+IRF3n,IRF3,Spontaneous,,k1_IRF3translocationtocytoplasm
+IRF3s,IRF3ns,Spontaneous,,k1_IRF3sintonucleus
+IRF3ns,IRF3s,Spontaneous,,k1_IRF3nsintocytoplasm
+,IRF3,Constant,,k1_IRF3generationrate
+IRF3,,Mass Action Deg,,k1_IRF3deg
+IRF3s,,Mass Action Deg,,k1_IRF3sdeg
+IRF3ns,,Mass Action Deg,,k1_IRF3nsdeg
+IRF3n,,Mass Action Deg,,k1_IRF3ndeg
+MYD88,MYD88s,Spontaneous,,k1_MYD88SELFACTIVATION

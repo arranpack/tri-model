@@ -1,0 +1,15 @@
+Name,Definition
+sumThings,[S1]*([Mod1]+[Mod2]+[Mod3]+[Mod4]+{k1}*[Mod5])
+Mass Action,[S1]*{k1}
+Mass Action NEMOIKK,{k1} * [S1] * [Mod1]
+Hill Equation with Modifier,( {k1}*[Mod1]*[S1] ) / ( {k2} + [S1] )
+Mass Action Mod, [s1] * {k1} *[Mod1]
+Spontaneous,[S1]*{k1}
+Activation_bymod1,([Mod1]*[S1]*{k1})/([S1]+{k2})
+Linear Activation_bymod1,[S1]*{k1}*[Mod1]
+Basal Expression,{k1}
+A20 Exp NFkB,{k1} * [mod1]^{k2}
+A20 Mod Tsl,{k1} * [mod1]
+A20 inhibition of IKK activation,({k1} * [mod1] * [S1]) / ({k2} * [S1])
+A20 inhibition of IKK activation new,{k1} * [S1] * ([mod1] / {k2} * [mod1])
+A20 inhibition of IKK activation new 2,{k1} * [mod1] * ([S1] / ({k2} * [S1]))

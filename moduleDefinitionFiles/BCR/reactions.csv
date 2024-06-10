@@ -1,0 +1,59 @@
+Substrate,Products,Kinetic Law,Modifiers,Parameters
+C,Cp,Spontaneous,,k1_Cp0
+C,Cp,Activation by function k3_p(t),,k1_CpS k2_kmCpS k3_signal
+Cp,C,Hill Equation,,k1_Cpu k2_kmCpu
+CB,CpB,Spontaneous,,k1_CpB0
+CB,CpB,Activation by function k3_p(t),,k1_CpBS k2_kmCpBS k3_signal
+CpB,CB,Hill Equation,,k1_CpBu k2_kmCpBu
+CM,CpM,Spontaneous,,k1_CpM0
+CM,CpM,Activation by function k3_p(t),,k1_CpMS k2_kmCpMS k3_signal
+CpM,CM,Hill Equation,,k1_CpMu k2_kmCpMu
+CBM,CpBM,Spontaneous,,k1_CpBM0
+CBM,CpBM,Activation by function k3_p(t),,k1_CpBMS k2_kmCpBMS k3_signal
+CpBM,CBM,Hill Equation,,k1_CpBMu k2_kmCpBMu
+B M,BM,Mass Action Binding,,k1_BaM
+BM,B M,Spontaneous,,k1_BdM
+C B,CB,Mass Action Binding,,k1_CaB
+CB,C B,Spontaneous,,k1_CdB
+Cp B,CpB,Mass Action Binding,,k1_CpaB
+CpB,Cp B,Spontaneous,,k1_CpdB
+C M,CM,Mass Action Binding,,k1_CaM
+CM,C M,Spontaneous,,k1_CdM
+Cp M,CpM,Mass Action Binding,,k1_CpaM
+CpM,Cp M,Spontaneous,,k1_CpdM
+CB M,CBM,Mass Action Binding,,k1_CBaM
+CBM,CB M,Spontaneous,,k1_CBdM
+CpB M,CpBM,Mass Action Binding,,k1_CpBaM
+CpBM,CpB M,Spontaneous,,k1_CpBdM
+CM B,CBM,Mass Action Binding,,k1_CMaB
+CBM,CM B,Spontaneous,,k1_CMdB
+CpM B,CpBM,Mass Action Binding,,k1_CpMaB
+CpBM,CpM B,Spontaneous,,k1_CpMdB
+C BM,CBM,Mass Action Binding,,k1_CaBM
+CBM,C BM,Spontaneous,,k1_CdBM
+Cp BM,CpBM,Mass Action Binding,,k1_CpaBM
+CpBM,Cp BM,Spontaneous,,k1_CpdBM
+TAK1,TAK1p,Spontaneous,,k1_Tp0
+TAK1,TAK1p,Activation_bymod1,Cp,k1_CTpS k2_kmCTpS
+TAK1,TAK1p,Activation_bymod1,CpB,k1_CBTpS k2_kmCBTpS
+TAK1,TAK1p,Activation_bymod1,CpM,k1_CMTpS k2_kmCMTpS
+TAK1,TAK1p,Activation_bymod1,CpBM,k1_CBMTpS k2_kmCBMTpS
+TAK1,TAK1p,Activation_bymod1,IKK_on,k1_TpIKK1 k2_kmTpIKK1
+TAK1p,TAK1,Hill Equation,,k1_Tpu k2_kmTpu
+TAK1C,TAK1pC,Spontaneous,,k1_TpC0
+TAK1C,TAK1pC,Activation_bymod1,Cp,k1_CTpCS k2_kmCTpCS
+TAK1C,TAK1pC,Activation_bymod1,CpB,k1_CBTpCS k2_kmCBTpCS
+TAK1C,TAK1pC,Activation_bymod1,CpM,k1_CMTpCS k2_kmCMTpCS
+TAK1C,TAK1pC,Activation_bymod1,CpBM,k1_CBMTpCS k2_kmCBMTpCS
+TAK1C,TAK1pC,Activation_bymod1,IKK_on,k1_TpCIKK1 k2_kmTpCIKK1
+TAK1C,TAK1pC,Activation_bymod1,IKK_on,k1_TpCIKK2 k2_kmTpCIKK2
+TAK1C,TAK1pC,Activation_bymod1,IKK_on,k1_TpCIKK3 k2_kmTpCIKK3
+TAK1pC,TAK1C,Hill Equation,,k1_TpCu k2_kmTpCu
+TAK1,TAK1C,DualModAssociation,CB CpB,k1_TaB
+TAK1,TAK1C,DualModAssociation,CM CpM,k1_TaM
+TAK1,TAK1C,DualModAssociation,CBM CpBM,k1_TaBM
+TAK1C,TAK1,Spontaneous,,k1_TCd
+TAK1p,TAK1pC,DualModAssociation,CB CpB,k1_TpaB
+TAK1p,TAK1pC,DualModAssociation,CM CpM,k1_TpaM
+TAK1p,TAK1pC,DualModAssociation,CBM CpBM,k1_TpaBM
+TAK1pC,TAK1p,Spontaneous,,k1_TpCd

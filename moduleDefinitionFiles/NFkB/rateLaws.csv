@@ -1,0 +1,94 @@
+Name,Definition
+Mass Action Binding,[S1]*[S2]*{k1}
+Constant,{k1}
+Mass Action Deg,[S1]*{k1}
+Modifier Inhibition,{vmax}*1-([Mod1]/({km}+[Mod1]))
+Activation by Kinase,[S1]*[Mod1]*{k1}
+Hill Xorder Activation,({k1}*[S1]*([Mod1]^{k2}))/(([Mod2]^{k2})+({k3}^{k2}))
+Spontaneous,[S1]*{k1}
+Delayed Mass Action,[S1]*{k1}*[Mod1]
+Nothing,0
+Degradation half life,[S1]*{k1}
+Activation_bymod1_inhibitionbymod2,([Mod1]*[S1]*{k1})/(([S1]+{k2})*[Mod2])
+Activation_bymod1,([Mod1]*[S1]*{k1})/([S1]+{k2})
+Activation_bymod1hill_scaled,{k3}*([S1]*{k1}*([Mod1]/([Mod1]+{k2})))
+Activation_by7mods_bigscaled,{k15}*(([Mod1]*[S1]*{k1})/([S1]+{k2})+([Mod2]*[S1]*{k3})/([S1]+{k4})+([Mod3]*[S1]*{k5})/([S1]+{k6})+([Mod4]*[S1]*{k7})/([S1]+{k8})+([Mod5]*[S1]*{k9})/([S1]+{k10})+([Mod6]*[S1]*{k11})/([S1]+{k12})+([Mod7]*[S1]*{k13})/([S1]+{k14}))
+Activation_by5mods_bigscaled,{k15}*(([Mod1]*[S1]*{k1})/([S1]+{k2})+([Mod2]*[S1]*{k3})/([S1]+{k4})+([Mod3]*[S1]*{k5})/([S1]+{k6})+([Mod4]*[S1]*{k7})/([S1]+{k8})+([Mod5]*[S1]*{k9})/([S1]+{k10}))
+Linear Activation_bymod1,[S1]*{k1}*[Mod1]
+Activation by function k3_p(t),({k3}*[S1]*{k1})/([S1]+{k2})
+Hill Equation,([S1] * {k1}) / ([S1] + {k2})
+DualAssociation,{k1} * ( [S1]+[S2] ) * [S3]
+AddFour,([Mod1]+[Mod2]+[Mod3]+[Mod4])
+Hill Equation with Modifier ,( {k1}*[Mod1]*[S1] ) / ( {k2} + [S1] )
+Hill Equation with active IKK Modifier ,( {k1}*[S1]*([Mod1]+[Mod2]+[Mod3]+[Mod4])^{k3} ) / ( {k2}^{k3} + ([Mod1]+[Mod2]+[Mod3]+[Mod4])^{k3} )
+A20 Alternate Expression,([Mod1] + [Mod2] + [Mod3] + [Mod4]) *{k1}
+DualModAssociation,{k1} * ( [Mod1] + [Mod2] ) * [S1]
+GenerationDegradation,{k1} - {k2} * [Mod1]
+Mass Action mod LPS,[S1]*{k1}*[Mod1]
+LPS slow deg,[S1]*{k1}*[Mod1]/{k2}
+LPS slow exp,{k1}*{k2}*[Mod1]
+Mass Action Active IKK,{k1} * [s1] * ( [Mod1] + [Mod2] + [Mod3] + [Mod4] )
+Mass Action NEMOIKK,{k1} * [s1] * [Mod1]
+Mass Action Binding,[S1]*[S2]*{k1}
+Mass Action IKK,[S1]*{k1}*{ikk1}
+Constant,{k1}
+Mass Action Deg,[S1]*{k1}
+Modifier Inhibition,{vmax}*1-([Mod1]/({km}+[Mod1]))
+Activation by Kinase,[S1]*[Mod1]*{k1}
+Hill Xorder Activation,({k1}*[S1]*([Mod1]^{k2}))/(([Mod2]^{k2})+({k3}^{k2}))
+Spontaneous,[S1]*{k1}
+Delayed Mass Action,[S1]*{k1}*[Mod1]
+Nothing,0
+Degradation half life,[S1]*{k1}
+InhibitHillEquation,(([Mod1]*[S1]*{k1})/([S1]+{k2}))*(1-([Mod2]/({k3}+[Mod2])))
+Activation_bymod1_inhibitionbymod2,([Mod1]*[S1]*{k1})/(([S1]+{k2})*[Mod2])
+Activation_bymod1,([Mod1]*[S1]*{k1})/([S1]+{k2})
+Activation by function k3_p(t),({k3}*[S1]*{k1})/([S1]+{k2})
+Hill Equation,([S1] * {k1}) / ([S1] + {k2})
+DualAssociation,{k1} * ( [S1]+[S2] ) * [S3]
+AddFour,([Mod1]+[Mod2]+[Mod3]+[Mod4])
+Hill Equation with Modifier ,( {k1}*[Mod1]*[S1] ) / ( {k2} + [S1] )
+A20 Alternate Expression,([Mod1] + [Mod2] + [Mod3] + [Mod4]) *{k1}
+DualModAssociation,{k1} * ( [Mod1] + [Mod2] ) * [S1]
+InhibitHillEquationtestrateLawrobustness,(([Mod1]*[S1]*{k1})/([S1]+{k2}))*(1-([Mod2]/({k3}+[Mod2])))+7+[Mod1]+[Mod3]
+Input Curve,{k1}
+Mass Action Binding,[S1]*[S2]*{k1}
+Constant,{k1}
+Mass Action Deg,[S1]*{k1}
+Modifier Inhibition,{vmax}*1-([Mod1]/({km}+[Mod1]))
+Activation by Kinase,[S1]*[Mod1]*{k1}
+Hill Xorder Activation,({k1}*[S1]*([Mod1]^{k2}))/(([Mod2]^{k2})+({k3}^{k2}))
+Spontaneous,[S1]*{k1}
+Delayed Mass Action,[S1]*{k1}*[Mod1]
+Nothing,0
+Degradation half life,[S1]*{k1}
+Activation_bymod1_inhibitionbymod2,([Mod1]*[S1]*{k1})/(([S1]+{k2})*[Mod2])
+Activation_bymod1,([Mod1]*[S1]*{k1})/([S1]+{k2})
+Linear Activation_bymod1,[S1]*{k1}*[Mod1]
+Activation by function k3_p(t),({k3}*{k1})*([S1]/({k2}+[S1]))
+Activation by function k3_p(t)_mew,([S1]*{k1})*({k3}/({k2}+{k3}))
+Hill Equation,([S1] * {k1}) / ([S1] + {k2})
+DualAssociation,{k1} * ( [S1]+[S2] ) * [S3]
+AddFour,([Mod1]+[Mod2]+[Mod3]+[Mod4])
+Hill Equation with Modifier ,( {k1}*[Mod1]*[S1] ) / ( {k2} + [S1] )
+A20 Alternate Expression,([Mod1] + [Mod2] + [Mod3] + [Mod4]) *{k1}
+DualModAssociation,{k1} * ( [Mod1] + [Mod2] ) * [S1]
+GenerationDegradation,{k1} - {k2} * [Mod1]
+Mass Action mod LPS,[S1]*{k1}*[Mod1]
+LPS slow deg,[S1]*{k1}*[Mod1]/{k2}
+LPS slow exp,{k1}*{k2}*[Mod1]
+Mass Action Binding, [s1] * [s2] * {k1}
+Hill Promotion, ({vmax} * [mod1])/({Km} + [mod1])
+Mass Action, [s1] * {k1}
+Constant Rate, {k1}
+Old Hill Promotion Induction two,{k1} * (1 + ({k1} * (([mod1]/{Kd1}) ^ {kh}) + {k2} * ([mod2]/{Kd2}) ^ {kh} ))/(1+([mod1]/{Kd1})  ^ {kh} + ([mod2]/{Kd2}) ^ {kh} )
+Old Hill Promotion Induction four,{k1} * (1 + ({k1} * ([mod1]/{Kd1}) ^ {kh} + {k2} * ([mod2]/{Kd2}) ^ {kh} + {k3} * ([mod3]/{Kd3}) ^ {kh}  + {k4} * ([mod4]/{Kd4}) ^ {kh} ))/(1+([mod1]/{Kd1})  ^ {kh} + ([mod2]/{Kd2})  ^ {kh} +  ([mod3]/{Kd3})  ^ {kh} + ([mod4]/{Kd4})  ^ {kh} )
+Mass Action IKK,{k1} * [s1] * {ikk1}
+MM Degradation,({vmax} * [s1] * [mod1])/({Km} + [s1])
+Hill Promotion Induction IkB one,{kmax}*((1+(({k1}* ([mod1] / {Kd1}).^{kh})))/ (1+(([mod1] /{Kd1}).^{kh})
+Hill Promotion Induction IkB two,{kmax}*((1+(({k1}* ([mod1] / {Kd1}).^{kh})+({k2}* ([mod2]/{Kd2}).^{kh})))/ (1+(([mod1] /{Kd1}).^{kh})+([mod2]/{Kd2}).^{kh}))
+Hill Promotion Induction IkB four,{kmax}*((1+(({k1}* ([mod1] / {Kd1}).^{kh})+({k2}* ([mod2]/{Kd2}).^{kh})+({k3}* ([mod3]/{Kd3}).^{kh})+({k4}* ([mod4]/{Kd4}).^{kh})))/ (1+(([mod1] /{Kd1}).^{kh}+([mod2]/{Kd2}).^{kh}+([mod3]/{Kd3}).^{kh}+([mod4]/{Kd4}).^{kh})))
+Mass Action NIK,{k1} * [s1] * {nik}
+Hill Promotion Induction NFkB one,{basal} + ((({k1} * (([mod1]/ {Kd1}).^{kh})))/ (1+(({k1} * (([mod1]/{Kd1}).^{kh}))))./{scale}
+Hill Promotion Induction NfkB two,{basal} + ((({k1} * (([mod1]/ {Kd1}).^{kh}))+({k2} * (([mod2]/{Kd2}).^{kh}))+({k3} * (([mod3]/ {Kd3}).^{kh})))/ (1+(({k1} * (([mod1]/{Kd1}).^{kh}))+({k2} * (([mod2]/ {Kd2}).^{kh}))+({k3} * (([mod3]/{Kd3}).^{kh}))))./{scale}
+Hill Promotion Induction NFkB four,{basal} + ((({k1} * (([mod1]/ {Kd1}).^{kh}))+({k2} * (([mod2]/{Kd2}).^{kh}))+({k3} * (([mod3]/ {Kd3}).^{kh}))+({k4} * (([mod4]/ {Kd4}).^{kh})))/ (1+(({k1} * (([mod1]/{Kd1}).^{kh}))+({k2} * (([mod2]/ {Kd2}).^{kh}))+({k3} * (([mod3]/{Kd3}).^{kh}))+({k4} * (([mod4]/ {Kd4}).^{kh})))))./{scale}
